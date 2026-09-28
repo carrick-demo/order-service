@@ -1,0 +1,7 @@
+{
+  "serviceName": "order-service",
+  "internalEnvVars": ["USER_SERVICE_URL", "NOTIFICATION_SERVICE_URL"],
+  "externalEnvVars": [],
+  "internalDomains": ["http://localhost:3001", "http://localhost:3003"],
+  "externalDomains": []
+}

@@ -1,0 +1,25 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "Order management microservice for Carrick demo",
+  "main": "dist/server.js",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon --exec ts-node server.ts",
+    "build": "tsc",
+    "build:watch": "tsc --watch",
+    "clean": "rm -rf dist"
+  },
+  "dependencies": {
+    "@fastify/cors": "^11.3.0",
+    "axios": "^1.5.0",
+    "dotenv": "^16.3.1",
+    "fastify": "^5.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "nodemon": "^3.0.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  }
+}
